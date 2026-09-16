@@ -89,12 +89,12 @@ export default function HomePage() {
       </section>
 
       <section id="our-story" className="scroll-mt-24 grid grid-cols-1 items-center gap-10 px-6 py-8 pb-16 md:grid-cols-2 md:px-12">
-        <Reveal y={40} className="relative aspect-[4/3] overflow-hidden rounded-lg bg-sm-cream-dark">
+        <Reveal y={40} className="relative aspect-[4/5] overflow-hidden rounded-lg bg-sm-cream-dark">
           <Image
             src="/images/foto2.png"
             alt="Simone Melgaço em meditação com taça tibetana no SM_Estúdio"
             fill
-            className="object-cover"
+            className="object-cover object-top"
             sizes="(min-width: 768px) 50vw, 100vw"
           />
         </Reveal>
